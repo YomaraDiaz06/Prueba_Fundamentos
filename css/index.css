@@ -1,30 +1,19 @@
 
 html{
- font-family: :Helvetica, sans-serif;
+ font-family: :arial;
 
 }
 body{
 	background-color: #555555;
 }
 .main{
-	/*background-color: #FFF;*/
-	width: 800 px;
-	height: 600 px;
+	width: 100%;
+	height: 100%;
 	margin: 50px 50px;
 	margin: 0 auto;
 	position: relative;
 }
-/*.square{
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
 
-
-}*/
 header{
  color: #ffffff;
 
@@ -52,7 +41,7 @@ nav {
 }
 nav ul li{
 
-	/*display: inline;*/
+	
 	color: #ffffff;
 	font-weight: bold;
 }
@@ -62,8 +51,8 @@ nav a {
 }
 
 .paragraph{
-	float: left ; 
-	background-color: #ffffff;
+	
+	
 	border: 0px solid #ccc;
 	padding: 0;
 	margin: 10 px, 10 px;
@@ -79,13 +68,7 @@ p {
 .paragraph, h1, a{
 	color: #FF962A;
 }
-.lista{
-	float: right;
-	background-color: #ffffff;
-	/*border: 0px solid #ffffff;*/
-	height: 500px;
-	width: 390px;
-}
+
 dt{
 	color: #FF962A;
 	margin: 2px;
@@ -95,7 +78,4 @@ h4{
 	color: #555555;
 	margin: 5px;
 }
-.piepag{
-	color: #ffffff;
-	text-align: center;
-}
+
