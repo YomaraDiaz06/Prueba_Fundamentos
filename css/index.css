@@ -1,20 +1,20 @@
 
 html{
- font-family: :helvetica, sans-serif;
+ font-family: :Helvetica, sans-serif;
 
 }
 body{
 	background-color: #555555;
 }
-/*.main{
-	background-color: #FFF;
+.main{
+	/*background-color: #FFF;*/
 	width: 940 px;
-	height: 800 px;
-	margin: 60px 15px 20px 30px;
+	height: 600 px;
+	margin: 10px 15px 20px 30px;
 	margin: 0 auto;
 	position: relative;
-}*/
-.square{
+}
+/*.square{
 	height: 100px;
 	width: 100px;
 	background-color: blue;
@@ -24,7 +24,7 @@ body{
 	transform: translate(-50%, -50%);
 
 
-}
+}*/
 header{
  color: #ffffff;
 
@@ -35,7 +35,7 @@ h1, h3{
 
 }
 h3{
-	opacity: 50%;
+	opacity: 0.5;
 }
 nav ul{
 	display: flex;
@@ -48,14 +48,54 @@ nav ul{
 nav {
 
 	background-color: #FF7D00;
+	padding: 4px;
 }
 nav ul li{
 
-	display: inline;
-	color #ffffff;
+	/*display: inline;*/
+	color: #ffffff;
 	font-weight: bold;
 }
 nav a {
 	color: #ffffff;
 	padding: 15px;
+}
+
+.paragraph{
+	float: left;
+	background-color: #fffffa;
+	border: 0px solid #ccc;
+	padding: 0;
+	margin: 0;
+	height: 500px;
+	width: 730px;
+}
+
+p {
+	color: black;
+	margin: 5px;
+	text-align: justify;
+}
+.paragraph, h1, a{
+	color: #FF962A;
+}
+.lista{
+	float: right;
+	background-color: #ffffff;
+	border: 0px solid #ffffff;
+	height: 500px;
+	width: 210px;
+}
+dt{
+	color: #FF962A;
+	margin: 2px;
+	font-size: 14px;
+}
+h4{
+	color: #555555;
+	margin: 5px;
+}
+.final{
+	color: #ffffff;
+	text-align: center;
 }
